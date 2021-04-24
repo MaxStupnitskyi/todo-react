@@ -1,0 +1,30 @@
+.list
+
+    &__item
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &__text
+            cursor: pointer
+
+            &.done
+                text-decoration: line-through
+
+            &.important
+                text-transform: uppercase
+                font-weight: 700
+
+        &__buttons
+            flex-shrink: 0
+
+        &__button
+            width: 38px
+            height: 38px
+            display: inline-flex
+            align-items: center
+            justify-content: center
+            margin-left: 10px
+
+.list-group
+    margin: 20px 0
